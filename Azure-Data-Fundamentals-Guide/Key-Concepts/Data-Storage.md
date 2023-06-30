@@ -44,3 +44,5 @@ graph LR
 📝 Next Steps
 
 > Congratulations! You now have an overview of the key data storage options in Azure. 🎉 To learn more about each storage option in detail and explore their features and use cases, continue to the specific sections dedicated to each storage option in this guide
+
+To understand data processing in Azure, proceed to the Data Processing section in the [Key Concepts]() directory.
