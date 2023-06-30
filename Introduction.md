@@ -32,6 +32,7 @@ This guide is ideal for:
 ---
 
 🌍 **Explore the Azure Data Fundamentals Landscape**
+
 ```mermaid
 graph TD
   A[Azure Data Fundamentals]
@@ -51,6 +52,7 @@ graph TD
   A --> G
   A --> H
 ```
+
 ---
 
 📝 **Next Steps**
