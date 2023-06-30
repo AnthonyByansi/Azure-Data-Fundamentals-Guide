@@ -47,3 +47,7 @@ graph LR
 📝 Next Steps
 
 > Congratulations! You have successfully set up your Azure account. Now, you are ready to dive deeper into Azure Data Fundamentals.
+
+🔗 Additional Resources
+
+Check out the [Community and Resources]() section for links to forums, documentation, tutorials, and other valuable resources to support your Azure Data Fundamentals journey.
