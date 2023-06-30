@@ -1,0 +1,23 @@
+graph LR
+  subgraph AzureDataFundamentals
+    A[Azure Data Fundamentals]
+    A -->|Foundational Knowledge| B[Data Engineer]
+    A -->|Data Analysis Skills| C[Data Analyst]
+    A -->|Data Visualization| D[Data Visualization Specialist]
+  end
+
+  subgraph DataEngineer
+    B -->|Advanced Data Engineering| E[Senior Data Engineer]
+    B -->|Machine Learning Engineering| F[Machine Learning Engineer]
+    B -->|Big Data Architectures| G[Big Data Architect]
+  end
+
+  subgraph DataAnalyst
+    C -->|Advanced Analytics| H[Senior Data Analyst]
+    C -->|Data Science Skills| I[Data Scientist]
+  end
+
+  subgraph DataVisualizationSpecialist
+    D -->|Data Storytelling| J[Data Storyteller]
+    D -->|UX/UI Design| K[Data Visualization Designer]
+  end
