@@ -1,1 +1,31 @@
+graph TB
+
+subgraph AzureDataFundamentals
+    A[Azure Data Fundamentals]
+    A -->|Build foundational knowledge| B[Data Analyst]
+    A -->|Expand data engineering skills| C[Data Engineer]
+    A -->|Enable advanced analytics| D[Data Scientist]
+    A -->|Drive strategic decisions| E[Data Architect]
+end
+
+subgraph DataRoles
+    B --> F[Business Intelligence Analyst]
+    B --> G[Data Visualization Specialist]
+    C --> H[Big Data Engineer]
+    C --> I[ETL Developer]
+    C --> J[Data Integration Specialist]
+    D --> K[Machine Learning Engineer]
+    D --> L[AI Specialist]
+    E --> M[Solution Architect]
+    E --> N[Data Governance Manager]
+end
+
+style AzureDataFundamentals fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,stroke-dasharray: 5,5
+style DataRoles fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
+
+classDef defaultNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px;
+classDef mainNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,stroke-dasharray: 5,5;
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N mainNode;
+class F,G,H,I,J,K,L,M,N defaultNode;
+
 
