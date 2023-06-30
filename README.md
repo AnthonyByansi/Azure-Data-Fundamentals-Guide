@@ -1,5 +1,3 @@
-# Azure-Data-Fundamentals-Guide
-
 # Azure Data Fundamentals Guide 📚
 
 Welcome to the Azure Data Fundamentals Guide! This repository serves as a comprehensive resource for understanding and implementing data management and analytics solutions in the Azure ecosystem. Whether you're new to Azure or want to explore the data fundamentals, this guide has got you covered! 💪🚀
