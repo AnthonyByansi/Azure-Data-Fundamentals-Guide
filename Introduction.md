@@ -32,9 +32,25 @@ This guide is ideal for:
 ---
 
 🌍 **Explore the Azure Data Fundamentals Landscape**
+```mermaid
+graph TD
+  A[Azure Data Fundamentals]
+  B[Azure Data Lake Storage]
+  C[Azure SQL Database]
+  D[Azure Databricks]
+  E[Azure Synapse Analytics]
+  F[Azure Stream Analytics]
+  G[Azure Data Factory]
+  H[Other Services]
 
-![Azure Data Fundamentals Landscape](./images/azure-data-landscape.png)
-
+  A --> B
+  A --> C
+  A --> D
+  A --> E
+  A --> F
+  A --> G
+  A --> H
+```
 ---
 
 📝 **Next Steps**
