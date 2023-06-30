@@ -42,6 +42,7 @@ graph LR
   B --> C[Verify Your Account]
   C --> D[Sign in to the Azure Portal]
   D --> E[Explore the Azure Portal]
+```
 
 📝 Next Steps
 
