@@ -37,3 +37,7 @@ graph LR
   F --> B
   G --> B
   H --> B
+```
+---
+
+To understand data visualization and reporting in Azure, proceed to the Data Visualization section in the Key Concepts directory.
