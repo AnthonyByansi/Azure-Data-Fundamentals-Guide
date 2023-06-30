@@ -39,5 +39,8 @@ graph LR
   H --> B
 ```
 ---
+📝 Next Steps
+
+> Congratulations! You now have an overview of the key data processing services in Azure. 🎉 To learn more about each data processing service in detail and explore their features, use cases, and best practices, continue to the specific sections dedicated to each service in this guide.
 
 To understand data visualization and reporting in Azure, proceed to the Data Visualization section in the Key Concepts directory.
