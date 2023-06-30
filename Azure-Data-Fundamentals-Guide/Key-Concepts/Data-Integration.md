@@ -32,3 +32,7 @@ graph LR
   B --> E[Azure Blob Storage]
   B --> F[Azure Synapse Analytics]
   B --> G[Azure Cosmos DB]
+```
+---
+
+To understand data governance and security in Azure, proceed to the Data Governance section in the Key Concepts directory.
