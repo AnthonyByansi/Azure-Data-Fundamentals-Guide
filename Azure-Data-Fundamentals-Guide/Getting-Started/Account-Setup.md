@@ -43,7 +43,7 @@ graph LR
   C --> D[Sign in to the Azure Portal]
   D --> E[Explore the Azure Portal]
 ```
-
+---
 📝 Next Steps
 
 > Congratulations! You have successfully set up your Azure account. Now, you are ready to dive deeper into Azure Data Fundamentals.
