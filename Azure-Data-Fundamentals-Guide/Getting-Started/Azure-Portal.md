@@ -47,3 +47,11 @@ graph TD
   A -->|Metrics and Monitoring| D[Metrics and Monitoring]
   A -->|Security and Identity| E[Security and Identity]
   A -->|Development Tools| F[Development Tools]
+```
+---
+
+📝 Next Steps
+
+> Congratulations! You are now familiar with the key features and components of the Azure Portal. 🎉 Continue your Azure Data Fundamentals journey by exploring the subsequent sections in this guide.
+
+To gain insights into key concepts related to data management in Azure, proceed to the [Key Concepts]() section.
