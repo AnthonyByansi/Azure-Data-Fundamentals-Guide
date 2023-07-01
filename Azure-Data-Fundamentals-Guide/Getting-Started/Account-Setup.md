@@ -14,7 +14,7 @@ Before you begin, make sure you have the following:
 
 📌 **Step 1: Visit the Azure Portal**
 
-Go to the [Azure Portal](https://portal.azure.com) using your preferred web browser.
+Go to the [Azure Portal](https://portal.azure.com?wt.mc_id=studentamb_260352) using your preferred web browser.
 
 📌 **Step 2: Create an Azure Account**
 
@@ -26,7 +26,7 @@ Once you have completed the account creation process, you will receive a verific
 
 📌 **Step 4: Sign in to the Azure Portal**
 
-After verifying your account, return to the [Azure Portal](https://portal.azure.com) and sign in using the credentials you created during the account setup.
+After verifying your account, return to the [Azure Portal](https://portal.azure.com?wt.mc_id=studentamb_260352) and sign in using the credentials you created during the account setup.
 
 📌 **Step 5: Explore the Azure Portal**
 
