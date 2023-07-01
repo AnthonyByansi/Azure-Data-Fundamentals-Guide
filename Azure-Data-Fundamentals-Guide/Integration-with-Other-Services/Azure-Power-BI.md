@@ -36,8 +36,18 @@ To integrate Azure Power BI into your data solutions, follow these steps:
 
 Let's consider an example use case of integrating Azure Power BI for a sales dashboard. The following code snippet demonstrates how to create a sales dashboard using Power BI Desktop:
 
-```markdown
-![Sales Dashboard](./sales_dashboard.png)
+```mermaid
+graph LR
+  A[Monthly Sales Performance] --> B{Top-Selling Products}
+  B --> C[Regional Sales Trends]
+  C --> D{Sales by Region}
+  D --> E[Map Visualization]
+  D --> F[Bar Chart]
+  D --> G[Line Chart]
+```
+---
+
+
 
 The sales dashboard provides an overview of monthly sales performance, top-selling products, and regional sales trends. The visualizations include bar charts, line charts, and a map visualization.
 
