@@ -43,16 +43,12 @@ Connect with the Azure community, access official documentation, explore tutoria
 🚀 **Roadmap: Azure Data Fundamentals to Other Data Roles**
 
 ```mermaid
-
 graph TD
-%%{init: {'theme': 'neutral'}}%%
-style graph-container fill:#FFFFFF,stroke-width:0px
-style AzureDataFundamentals, DataRoles fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
-style defaultNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
-style mainNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,stroke-dasharray: 5,5
+
+style graphStyle font-size:16px;
 
 subgraph AzureDataFundamentals
-    style subgraph-container fill:#FFFFFF,stroke-width:0px
+    style nodeStyle fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,font-size:14px;
     A[Azure Data Fundamentals]
     A -->|Build foundational knowledge| B[Data Analyst]
     A -->|Expand data engineering skills| C[Data Engineer]
@@ -61,7 +57,7 @@ subgraph AzureDataFundamentals
 end
 
 subgraph DataRoles
-    style subgraph-container fill:#FFFFFF,stroke-width:0px
+    style nodeStyle fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,font-size:14px;
     B --> F[Business Intelligence Analyst]
     B --> G[Data Visualization Specialist]
     C --> H[Big Data Engineer]
@@ -73,7 +69,9 @@ subgraph DataRoles
     E --> N[Data Governance Manager]
 end
 
-class A,B,C,D,E,F,G,H,I,J,K,L,M,N mainNode
-class F,G,H,I,J,K,L,M,N defaultNode
+style graphStyle fill:#F5F5F5,stroke:#3772FF,stroke-width:2px;
+
+
+
 ```
 ---
