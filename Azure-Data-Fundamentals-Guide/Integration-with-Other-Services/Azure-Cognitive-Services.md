@@ -52,3 +52,5 @@ response = client.analyze_sentiment(documents)
 for result in response:
     sentiment = result.sentiment
     print("Sentiment:", sentiment)
+```
+---
