@@ -43,9 +43,16 @@ Connect with the Azure community, access official documentation, explore tutoria
 🚀 **Roadmap: Azure Data Fundamentals to Other Data Roles**
 
 ```mermaid
-graph TB
+%%{init: {'theme': 'neutral'}}%%
+graph TD
+
+style graph-container fill:#FFFFFF,stroke-width:0px
+style AzureDataFundamentals, DataRoles fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
+style defaultNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
+style mainNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,stroke-dasharray: 5,5
 
 subgraph AzureDataFundamentals
+    style subgraph-container fill:#FFFFFF,stroke-width:0px
     A[Azure Data Fundamentals]
     A -->|Build foundational knowledge| B[Data Analyst]
     A -->|Expand data engineering skills| C[Data Engineer]
@@ -54,6 +61,7 @@ subgraph AzureDataFundamentals
 end
 
 subgraph DataRoles
+    style subgraph-container fill:#FFFFFF,stroke-width:0px
     B --> F[Business Intelligence Analyst]
     B --> G[Data Visualization Specialist]
     C --> H[Big Data Engineer]
@@ -65,10 +73,7 @@ subgraph DataRoles
     E --> N[Data Governance Manager]
 end
 
-style AzureDataFundamentals fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,stroke-dasharray: 5,5
-style DataRoles fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
-
-classDef defaultNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px;
-classDef mainNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px,stroke-dasharray: 5,5;
-class A,B,C,D,E,F,G,H,I,J,K,L,M,N mainNode;
-class F,G,H,I,J,K,L,M,N defaultNode;
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N mainNode
+class F,G,H,I,J,K,L,M,N defaultNode
+```
+---
