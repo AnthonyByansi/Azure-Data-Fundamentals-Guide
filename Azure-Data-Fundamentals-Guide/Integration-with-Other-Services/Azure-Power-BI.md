@@ -83,7 +83,43 @@ style P fill:#cdf, stroke:#333, stroke-width:2px
 ```
 
 ---
+```mermaid
+graph LR
 
+    A[Sales Dashboard] -->|Monthly Sales Performance| B[Bar Chart]
+    A -->|Top-Selling Products| C[Pie Chart]
+    A -->|Regional Sales Trends| D[Line Chart]
+    A -->|Geographic Distribution| E[Map Visualization]
+
+    subgraph Bar Chart
+        B -->|Category A| BA[100]
+        B -->|Category B| BB[200]
+        B -->|Category C| BC[150]
+    end
+
+    subgraph Pie Chart
+        C -->|Product 1| CA[30%]
+        C -->|Product 2| CB[25%]
+        C -->|Product 3| CC[20%]
+        C -->|Product 4| CD[15%]
+        C -->|Other Products| CE[10%]
+    end
+
+    subgraph Line Chart
+        D -->|Region A| DA[50]
+        D -->|Region B| DB[70]
+        D -->|Region C| DC[60]
+        D -->|Region D| DD[80]
+    end
+
+    subgraph Map Visualization
+        E -->|Region A| EA
+        E -->|Region B| EB
+        E -->|Region C| EC
+        E -->|Region D| ED
+    end
+```
+---
 
 The sales dashboard provides an overview of monthly sales performance, top-selling products, and regional sales trends. The visualizations include bar charts, line charts, and a map visualization.
 
