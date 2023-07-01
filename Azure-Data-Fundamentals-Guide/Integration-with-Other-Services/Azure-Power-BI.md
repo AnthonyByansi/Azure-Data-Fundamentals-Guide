@@ -46,7 +46,43 @@ graph LR
   D --> G[Line Chart]
 ```
 ---
+```mermaid
+graph LR
+A[Sales Dashboard] --> B[Monthly Sales Performance]
+A --> C[Top-Selling Products]
+A --> D[Regional Sales Trends]
+B --> E{Bar Charts}
+C --> F{Pie Chart}
+D --> G{Line Chart}
+E --> H[Region 1]
+E --> I[Region 2]
+E --> J[Region 3]
+F --> K[Product 1]
+F --> L[Product 2]
+F --> M[Product 3]
+G --> N[Region 1]
+G --> O[Region 2]
+G --> P[Region 3]
 
+style A fill:#f9f, stroke:#333, stroke-width:2px
+style B fill:#9cf, stroke:#333, stroke-width:2px
+style C fill:#9cf, stroke:#333, stroke-width:2px
+style D fill:#9cf, stroke:#333, stroke-width:2px
+style E fill:#acf, stroke:#333, stroke-width:2px
+style F fill:#acf, stroke:#333, stroke-width:2px
+style G fill:#acf, stroke:#333, stroke-width:2px
+style H fill:#cdf, stroke:#333, stroke-width:2px
+style I fill:#cdf, stroke:#333, stroke-width:2px
+style J fill:#cdf, stroke:#333, stroke-width:2px
+style K fill:#cdf, stroke:#333, stroke-width:2px
+style L fill:#cdf, stroke:#333, stroke-width:2px
+style M fill:#cdf, stroke:#333, stroke-width:2px
+style N fill:#cdf, stroke:#333, stroke-width:2px
+style O fill:#cdf, stroke:#333, stroke-width:2px
+style P fill:#cdf, stroke:#333, stroke-width:2px
+```
+
+---
 
 
 The sales dashboard provides an overview of monthly sales performance, top-selling products, and regional sales trends. The visualizations include bar charts, line charts, and a map visualization.
