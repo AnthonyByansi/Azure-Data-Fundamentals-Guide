@@ -60,3 +60,9 @@ service = Model.deploy(workspace, 'image_classification_service', [model])
 
 # Wait for the deployment to complete
 service.wait_for_deployment(show_output=True)
+```
+---
+
+📝 Next Steps
+
+> Congratulations! You now have an overview of integrating Azure Machine Learning into your data solutions. 🎉 To learn more about each capability and explore advanced features of Azure Machine Learning, refer to the official documentation and resources provided by Azure.
