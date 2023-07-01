@@ -26,7 +26,7 @@ To access the Azure Portal and get started with managing your Azure resources, f
 
 📌 **Step 1: Sign in to the Azure Portal**
 
-Visit the [Azure Portal](https://portal.azure.com) using your preferred web browser. Sign in using your Azure account credentials.
+Visit the [Azure Portal](https://portal.azure.com?wt.mc_id=studentamb_260352) using your preferred web browser. Sign in using your Azure account credentials.
 
 📌 **Step 2: Navigate the Azure Portal**
 
