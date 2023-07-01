@@ -43,9 +43,9 @@ Connect with the Azure community, access official documentation, explore tutoria
 🚀 **Roadmap: Azure Data Fundamentals to Other Data Roles**
 
 ```mermaid
-%%{init: {'theme': 'neutral'}}%%
-graph TD
 
+graph TD
+%%{init: {'theme': 'neutral'}}%%
 style graph-container fill:#FFFFFF,stroke-width:0px
 style AzureDataFundamentals, DataRoles fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
 style defaultNode fill:#F5F5F5,stroke:#3772FF,stroke-width:2px
