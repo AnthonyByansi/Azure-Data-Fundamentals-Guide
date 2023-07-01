@@ -86,4 +86,4 @@ graph LR
 ---
 
 The sales dashboard provides an overview of monthly sales performance, top-selling products, and regional sales trends. The visualizations include bar charts, line charts, and a map visualization.
-> please my sure to get hands on experience with Power-BI 
+> Please be sure to get hands on experience with Power-BI 
