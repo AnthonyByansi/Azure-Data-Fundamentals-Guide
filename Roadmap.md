@@ -1,3 +1,4 @@
+```mermaid
 graph LR
   subgraph AzureDataFundamentals
     A[Azure Data Fundamentals]
